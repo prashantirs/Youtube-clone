@@ -1,0 +1,34 @@
+.videorow{
+    display: flex;
+    margin-bottom: 30px;
+}
+.videorow__logo{
+    object-fit: contain;
+    width: 270px;
+    height: 150px;
+}
+.videorow__text{
+    margin-left: 20px;
+}
+.videorow__text__top{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.videorow__text__middle{
+    display: flex;
+    margin-bottom: 15px;
+    gap:0.5rem    
+}
+.videorow__text__middle__avatar{
+    height: 2rem !important;
+    width: 2rem !important;
+}
+@media (max-width:1028px) {
+    .videorow{
+        display: flex;
+        flex-direction: column;
+    }
+    .videorow__text{
+        margin-left: 0px;
+    }
+}
